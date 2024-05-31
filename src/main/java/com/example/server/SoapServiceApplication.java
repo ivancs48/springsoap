@@ -37,6 +37,7 @@ public class SoapServiceApplication extends WsConfigurerAdapter {
         wsdl11Definition.setPortTypeName("GreetingPort");
         wsdl11Definition.setLocationUri("/ws");
         wsdl11Definition.setTargetNamespace("http://example.com/greeting");
+        // URL wsdl -> http://localhost:8080/ws/greeting.wsdl
         wsdl11Definition.setSchema(greetingSchema);
         return wsdl11Definition;
     }
