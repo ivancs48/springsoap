@@ -102,7 +102,7 @@
                     <sources>
                         <source>src/main/java/xsd/servicioweb.xsd</source>
                     </sources>
-                    <packageName>com.example.server</packageName>
+                    <packageName>com.example.server.genereted</packageName>
                 </configuration>
                 <dependencies>
                     <dependency>

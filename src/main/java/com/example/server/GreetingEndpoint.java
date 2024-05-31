@@ -1,8 +1,12 @@
 package com.example.server;
+
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
+
+import com.example.server.genereted.GetGreetingRequest;
+import com.example.server.genereted.GetGreetingResponse;
 
 
 @Endpoint
